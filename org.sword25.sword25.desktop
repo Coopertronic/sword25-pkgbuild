@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Broken Sword 2.5
+Comment=A graphical point-and-click adventure gamebased on the classic Broken Sword series by Revolution Software.
+Exec=sword25
+Icon=org.sword25.sword25
+Terminal=false
+Type=Application
+Categories=Game;AdventureGame;
+StartupNotify=false
