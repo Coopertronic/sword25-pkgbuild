@@ -32,8 +32,10 @@ package() {
   install -D -m755 $pkgname.sh $pkgdir/usr/bin/$pkgname
 
   ##  Install game icon
-  install -D -m644 org.$pkgname.$pkgname.svg $pkgdir/usr/share/icons/hicolor/scalable/apps/
+  install -d $pkgdir/usr/share/icons/hicolor/scalable/apps
+  install -D -m644 org.$pkgname.$pkgname.svg $pkgdir/usr/share/icons/hicolor/scalable/apps/org.$pkgname.$pkgname.svg
 
   ##  Install Application desktop launcher
-  install -D -m644 org.$pkgname.$pkgname.desktop $pkgdir/usr/share/applications/
+  install -d $pkgdir/usr/share/applications
+  install -D -m644 org.$pkgname.$pkgname.desktop $pkgdir/usr/share/applications/org.$pkgname.$pkgname.desktop
 }
