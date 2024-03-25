@@ -4,7 +4,7 @@
 pkgname=sword25
 pkgver=1.0
 pkgrel=1
-pkgdesc='"Broken Sword 2.5: The Return of the Templars" is a graphical point-and-click adventure game based on the classic series by Revolution Software. Take on the role of George Stobart and try to figure out what is going on.'
+pkgdesc='Broken Sword 2.5: The Return of the Templars is a graphical point-and-click adventure game based on the classic series by Revolution Software. Take on the role of George Stobart and try to figure out what is going on.'
 arch=('any')
 url="http://www.brokensword25.com/"
 gmpkgurl="http://downloads.sourceforge.net/scummvm/"
